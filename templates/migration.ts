@@ -1,6 +1,7 @@
+
 export const migration = {
   async fwd(client:any, db:any) {
-    // write the statements to forward your migration here 
+    // write the statements to forward your migration here
     // Example:
     // await db.collection('food').updateOne({item: 'boba'}, {$set: {price: 25}});
   },
@@ -11,3 +12,8 @@ export const migration = {
     // await db.collection('food').updateOne({item: 'boba'}, {$set: {price: 0}});
   },
 };
+
+
+
+
+
